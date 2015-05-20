@@ -1,0 +1,70 @@
+/* Your Styling */
+body {
+	background-image: url("../img/background.png")
+}
+
+#header {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    height: 75%;
+	width: 75%;
+}
+
+h1, h2 {
+	border-style: dotted;
+    border-width: 75%;
+    border-color: white;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	color: teal;
+	padding: 0em;
+}
+
+#navbar {
+	margin: auto;
+}
+
+#navbar a {
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+}
+
+#navbar li {
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
+
+#navbar ul {
+	padding-right: 1em;
+	padding-left: 1em;
+	text-align: center;
+}
+
+/*PSUEDO ELEMENTS*/
+
+a:link {
+	border-bottom: 2px solid white;
+	color: teal;
+	padding: .5em;
+}
+a:visited {
+  background: gray;
+}
+
+a:focus {
+  border: 2px double teal;
+  outline: none;
+}
+
+a:hover {
+  background: gray;
+  transition: background .5s;
+}
